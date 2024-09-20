@@ -69,10 +69,11 @@ fun BookCounter(modifier: Modifier = Modifier) {
                 .padding(16.dp)
                 .wrapContentSize()
         ) {
+            // CAMBIO HECHO POR OSMAR
             Text(
-                text = "Tu tienes $count libros registrados.",
+                text = "Solo se tiene $count libros almacenados.",
                 fontFamily = FontFamily.SansSerif,
-                fontSize = 24.sp,
+                fontSize = 30.sp,
                 color = Color(0xFF000000)
             )
             Spacer(modifier = Modifier.height(16.dp))
