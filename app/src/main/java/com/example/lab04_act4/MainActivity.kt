@@ -69,12 +69,13 @@ fun BookCounter(modifier: Modifier = Modifier) {
                 .padding(16.dp)
                 .wrapContentSize()
         ) {
+
             //Maciel Ancco Escobar
             Text(
                 text = "Has registrado $count libros hasta ahora.",
                 fontFamily = FontFamily.SansSerif,
                 fontSize = 20.sp,
-                color = Color(0xFF000000)
+
             )
             Spacer(modifier = Modifier.height(16.dp))
             TextField(
